@@ -15,3 +15,22 @@
     --color-gray: #5E5E5E;
     font-family: "Poppins", serif;
 }
+
+.btn {
+    display: flex;
+    opacity: 1;
+    transition: .3s ease-in-out;
+}
+
+    .btn:hover {
+        opacity: .8;
+        transition: .3s ease-in;
+    }
+
+button {
+    font-family: "Poppins", serif;
+}
+
+a {
+    text-decoration: none;
+}

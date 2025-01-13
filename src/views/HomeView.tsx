@@ -1,8 +1,10 @@
+import { BannerPlants } from "../components/BannerPlants"
+
 const HomeView = () => {
     return (
-        <main>
-            <h2>Home View</h2>
-        </main>
+        <>
+            <BannerPlants />
+        </>
     )
 }
 
