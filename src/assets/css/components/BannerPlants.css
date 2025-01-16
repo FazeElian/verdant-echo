@@ -63,6 +63,7 @@
 
         .img-banner-plants img {
             scale: .9;
+            aspect-ratio: 3 / 4;
         }
 
 /* Responsive 1440px */
