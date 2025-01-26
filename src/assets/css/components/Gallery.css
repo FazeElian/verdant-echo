@@ -15,8 +15,8 @@
     .item-gallery {
         display: flex;
         width: auto;
-        min-width: 300px;
-        min-height: 440px;
+        min-width: 280px;
+        min-height: 400px;
         padding: 2rem 1.5rem 2rem;
         height: auto;
         background-color: var(--color-green-light);
@@ -32,7 +32,7 @@
         }
 
             .img-item-gallery img {
-                width: 45%;
+                width: 40%;
             }
 
         .content-item-gallery {
@@ -140,8 +140,12 @@
     }
 
     .item-gallery {
-        min-width: 260px;
+        min-width: 250px;
         min-height: 300px;
+    }
+
+    .img-item-gallery img {
+        width: 40%;
     }
 }
 
