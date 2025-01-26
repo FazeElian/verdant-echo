@@ -8,10 +8,18 @@ import Plant2 from "../assets/img/plants/3.png";
 // React icons
 import { MdOutlineShoppingCart } from "react-icons/md";
 
+import { motion } from "motion/react";
+
 const Gallery = () => {
     return (
         <div className="gallery">
-            <div className="item-gallery">
+            <motion.div
+                className="item-gallery"
+                whileHover={{ scale: 1.1 }}
+                transition={{
+                    duration: .25,
+                }}
+            >
                 <div className="img-item-gallery">
                     <img src={Plant1} alt="" />
                 </div>
@@ -25,8 +33,14 @@ const Gallery = () => {
                         Agregar al carrito
                     </button>
                 </div>
-            </div>
-            <div className="item-gallery">
+            </motion.div>
+            <motion.div
+                className="item-gallery"
+                whileHover={{ scale: 1.1 }}
+                transition={{
+                    duration: .25,
+                }}
+            >
                 <div className="img-item-gallery">
                     <img src={Plant2} alt="" />
                 </div>
@@ -40,8 +54,14 @@ const Gallery = () => {
                         Agregar al carrito
                     </button>
                 </div>
-            </div>
-            <div className="item-gallery">
+            </motion.div>
+            <motion.div
+                className="item-gallery"
+                whileHover={{ scale: 1.1 }}
+                transition={{
+                    duration: .25,
+                }}
+            >
                 <div className="img-item-gallery">
                     <img src={Plant1} alt="" />
                 </div>
@@ -55,8 +75,14 @@ const Gallery = () => {
                         Agregar al carrito
                     </button>
                 </div>
-            </div>
-            <div className="item-gallery">
+            </motion.div>
+            <motion.div
+                className="item-gallery"
+                whileHover={{ scale: 1.1 }}
+                transition={{
+                    duration: .25,
+                }}
+            >
                 <div className="img-item-gallery">
                     <img src={Plant2} alt="" />
                 </div>
@@ -70,8 +96,14 @@ const Gallery = () => {
                         Agregar al carrito
                     </button>
                 </div>
-            </div>
-            <div className="item-gallery">
+            </motion.div>
+            <motion.div
+                className="item-gallery"
+                whileHover={{ scale: 1.1 }}
+                transition={{
+                    duration: .25,
+                }}
+            >
                 <div className="img-item-gallery">
                     <img src={Plant1} alt="" />
                 </div>
@@ -85,8 +117,14 @@ const Gallery = () => {
                         Agregar al carrito
                     </button>
                 </div>
-            </div>
-            <div className="item-gallery">
+            </motion.div>
+            <motion.div
+                className="item-gallery"
+                whileHover={{ scale: 1.1 }}
+                transition={{
+                    duration: .25,
+                }}
+            >
                 <div className="img-item-gallery">
                     <img src={Plant2} alt="" />
                 </div>
@@ -100,8 +138,14 @@ const Gallery = () => {
                         Agregar al carrito
                     </button>
                 </div>
-            </div>
-            <div className="item-gallery">
+            </motion.div>
+            <motion.div
+                className="item-gallery"
+                whileHover={{ scale: 1.1 }}
+                transition={{
+                    duration: .25,
+                }}
+            >
                 <div className="img-item-gallery">
                     <img src={Plant1} alt="" />
                 </div>
@@ -115,8 +159,14 @@ const Gallery = () => {
                         Agregar al carrito
                     </button>
                 </div>
-            </div>
-            <div className="item-gallery">
+            </motion.div>
+            <motion.div
+                className="item-gallery"
+                whileHover={{ scale: 1.1 }}
+                transition={{
+                    duration: .25,
+                }}
+            >
                 <div className="img-item-gallery">
                     <img src={Plant2} alt="" />
                 </div>
@@ -130,7 +180,7 @@ const Gallery = () => {
                         Agregar al carrito
                     </button>
                 </div>
-            </div>
+            </motion.div>
         </div>
     )
 }
