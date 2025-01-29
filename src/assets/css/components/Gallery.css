@@ -24,6 +24,7 @@
         flex-direction: column;
         filter: drop-shadow(1px 4px 3px var(--color-gray));
         cursor: pointer;
+        justify-content: space-evenly;
     }
 
         .img-item-gallery {
@@ -33,7 +34,7 @@
         }
 
             .img-item-gallery img {
-                width: 40%;
+                width: 42%;
             }
 
         .content-item-gallery {
