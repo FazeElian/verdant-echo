@@ -14,7 +14,7 @@ function Router() {
       <Routes>
         <Route element={<Header />}>
           <Route index element={<HomeView />} />
-          <Route path="/plantpots" element={<PlantPotsView />} />
+          <Route path="/plantspots" element={<PlantPotsView />} />
           <Route path="/cart" element={<CartView />} />
         </Route>
       </Routes>

@@ -38,7 +38,7 @@ const Header = () => {
                             <PiPlantFill />
                             Plantas
                         </Link>
-                        <Link to="/plantpots" className="nav-list-item-header" onClick={() => setMenu(false)}>
+                        <Link to="/plantspots" className="nav-list-item-header" onClick={() => setMenu(false)}>
                             <RiPlantFill />
                             Macetas
                         </Link>

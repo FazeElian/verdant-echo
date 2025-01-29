@@ -1,0 +1,61 @@
+@import "../Global.css";
+
+.cont-btn-view-all {
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+    .btn-view-all {
+        display: flex;
+        width: auto;
+        height: auto;
+        padding: 12px 3rem 12px;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        font-size: 16px;
+        border-radius: 8px;
+        background-color: var(--color-green);
+        color: var(--color-white);
+        margin: 2rem 0 5rem;
+    }
+
+        .btn-view-all svg {
+            width: 20px;
+            height: 20px;
+        }
+
+/* Responsive 1440px */
+@media screen and (max-width: 1440px) {
+    .btn-view-all {
+        font-size: 15px;
+    }
+
+    .btn-view-all svg {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+/* Responsive 1280px */
+@media screen and (max-width: 1280px) {
+
+}
+
+/* Responsive 1024px */
+@media screen and (max-width: 1024px) {
+
+}
+
+/* Responsive 768px */
+@media screen and (max-width: 768px) {
+
+}
+
+/* Responsive 425px */
+@media screen and (max-width: 425px) {
+
+}

@@ -9,6 +9,7 @@ import { RiPlantFill } from "react-icons/ri";
 // Galleries items
 import PlantsList from "../utils/PlantsList";
 import PlantSpotsList from "../utils/PlantSpotsList";
+import { ViewAllBtn } from "../components/ViewAllBtn";
 
 const HomeView = () => {
     return (
@@ -28,6 +29,7 @@ const HomeView = () => {
                 title="Macetas"
             />
             <Gallery Items={PlantSpotsList} />
+            <ViewAllBtn url="plantspots" />
         </>
     )
 }
