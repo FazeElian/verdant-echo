@@ -1,15 +1,18 @@
 // Styles
+import React from "react";
 import "../assets/css/components/TitleSection.css";
 
-// React icons
-import { PiPlantFill } from "react-icons/pi";
+type TitleSectionType = {
+    svg: React.ComponentType
+    title: string
+}
 
-const TitleSection = () => {
+const TitleSection = (props: TitleSectionType) => {
     return (
         <div className="cont-title-section">
             <div className="title-section">
-                <PiPlantFill />
-                Plantas
+                <props.svg />
+                {props.title}
             </div>
         </div>
     )
