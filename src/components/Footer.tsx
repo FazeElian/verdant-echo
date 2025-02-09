@@ -1,7 +1,16 @@
+// Styles
+import "../assets/css/components/Footer.css";
+
 const Footer = () => {
     return (
-        <footer>
-            <h1>Footer</h1>
+        <footer className="footer">
+            Copyright © 2025; Designed and developed by
+            <a
+                href="https://elianibarra.com/"
+                target="_blank"
+            >
+                Elián Ibarra
+            </a>
         </footer>
     )
 }

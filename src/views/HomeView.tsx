@@ -3,6 +3,7 @@ import { BannerPlants } from "../components/BannerPlants"
 import { TitleSection } from "../components/TitleSection"
 import { Gallery } from "../components/Gallery"
 import { ContactUs } from "../components/ContactUs";
+import { Footer } from "../components/Footer";
 
 // React icons
 import { PiPlantFill } from "react-icons/pi";
@@ -35,6 +36,9 @@ const HomeView = () => {
 
             {/* Contact */}
             <ContactUs />
+
+            {/* Footer */}
+            <Footer />
         </>
     )
 }
