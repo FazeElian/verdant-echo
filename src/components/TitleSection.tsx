@@ -1,5 +1,4 @@
 // Styles
-import React from "react";
 import "../assets/css/components/TitleSection.css";
 
 type TitleSectionType = {

@@ -3,6 +3,7 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 body {
@@ -51,4 +52,41 @@ button {
 
 a {
     text-decoration: none;
+}
+
+.page-content {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    margin: auto;
+    padding: 0 15rem 0;
+}
+
+/* Responsive 1440px */
+@media screen and (max-width: 1440px) {
+    .page-content {
+        padding: 0 10rem 0;
+    }
+}
+
+/* Responsive 1024px */
+@media screen and (max-width: 1024px) {
+    .page-content {
+        padding: 0 6rem 0;
+    }
+}
+
+/* Responsive 768px */
+@media screen and (max-width: 768px) {
+    .page-content {
+        padding: 0 4rem 0;
+    }
+}
+
+/* Responsive 425px */
+@media screen and (max-width: 425px) {
+    .page-content {
+        padding: 0 2.5rem 0;
+    }
 }
