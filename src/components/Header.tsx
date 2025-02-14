@@ -1,5 +1,6 @@
 import { Link, Outlet } from "react-router-dom";
 import { useState } from "react";
+import { Toaster } from "sonner";
 
 // Styles
 import "../assets/css/components/Header.css";
@@ -66,6 +67,12 @@ const Header = () => {
             </header>
 
             <Outlet />
+            <Toaster
+                richColors
+                expand
+                position="bottom-right"
+                visibleToasts={2}
+            />
         </>
     )
 }
