@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "../assets/css/components/BannerPlants.css";
 
 // Images - icons
-import Plant from "../assets/img/plants/plant-banner.png";
+import Plant from "../assets/img/plants/plant-banner.webp";
 
 const BannerPlants = () => {
     return (

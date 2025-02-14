@@ -1,6 +1,6 @@
 // Items images
-import PlantSpot1Img from "../assets/img/plantpots/1.png";
-import PlantSpot2Img from "../assets/img/plantpots/2.png";
+import PlantSpot1Img from "../assets/img/plantpots/1.webp";
+import PlantSpot2Img from "../assets/img/plantpots/2.webp";
 
 // Type
 import { GalleryItemsType } from "./PlantsList";

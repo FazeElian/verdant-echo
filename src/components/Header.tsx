@@ -6,7 +6,7 @@ import { Toaster } from "sonner";
 import "../assets/css/components/Header.css";
 
 // Logo
-import Logo from "../assets/img/Logo.png";
+import Logo from "../assets/img/Logo.webp";
 
 // React icons
 import { IoSearch } from "react-icons/io5";

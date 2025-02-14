@@ -1,6 +1,6 @@
 // Items images
-import Plant1Img from "../assets/img/plants/1.png";
-import Plant2Img from "../assets/img/plants/3.png";
+import Plant1Img from "../assets/img/plants/1.webp";
+import Plant2Img from "../assets/img/plants/3.webp";
 
 // Type
 export interface GalleryItemsType {
