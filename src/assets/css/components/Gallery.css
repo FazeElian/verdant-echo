@@ -7,7 +7,7 @@
     flex-wrap: wrap;
     gap: 4rem;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 0 15rem 0;
     margin: 3rem 0 3rem;
 }
@@ -15,7 +15,7 @@
     .item-gallery {
         display: flex;
         width: auto;
-        min-width: 280px;
+        min-width: 290px;
         min-height: 400px;
         padding: 2rem 1.5rem 2rem;
         height: auto;

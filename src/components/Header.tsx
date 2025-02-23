@@ -35,7 +35,7 @@ const Header = () => {
                             <ImHome />
                             Inicio
                         </Link>
-                        <Link to="/" className="nav-list-item-header" onClick={() => setMenu(false)}>
+                        <Link to="/plants" className="nav-list-item-header" onClick={() => setMenu(false)}>
                             <PiPlantFill />
                             Plantas
                         </Link>
